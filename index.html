@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://cdn.discordapp.com/emojis/1296288203128701030.png" rel="icon" type="image/png">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&amp;family=Quicksand:wght@600&amp;family=Montserrat:wght@600&amp;family=Rethink+Sans&amp;display=swap">
+    <title>Deatside</title>
+    <meta content="#2b2d31" name="theme-color">
+    <meta content="traição com quem te conduziu ao pódio é vacilação" property="og:description">
+</head>
+
+<body>
+    <ul class="black-overlay">
+        <li style="--clr:#ffffff">
+            <h5><a data-text=" pqp" onclick="removeOverlay()"> pqp </a></h5>
+        </li>
+    </ul>
+    <div class="background"></div>
+    <div class="profile-container"></div>
+    <button id="muteButton"
+        style="position: absolute; top: 10px; left: 10px; background: none; border: none; padding: 0;">
+        <img id="muteIcon" src="assets/mutado.png" alt="Muted" style="width: 20px; height: 20px;">
+        <img id="unmuteIcon" src="assets/desmutado.png" alt="Unmuted"
+            style="width: 20px; height: 20px; display: none;">
+    </button>
+
+    <audio id="audio" loop preload="auto">
+        <source src="palloma.mp3" type="audio/mpeg">
+    </audio>
+    <script src="scripts/script.js"></script>
+    <script src="../code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="scripts/tilt.js"></script>
+</body>
+</html>
